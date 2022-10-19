@@ -10,16 +10,13 @@ import org.springframework.context.annotation.ComponentScan;
 
 
 
-
+//@ComponentScan(basePackages={"com.jenkins.springboot"})
 @SpringBootApplication
-@ComponentScan(basePackages={"com.jenkins.springboot"})
 public class SpringbootjpaApplication {
-	
-	
-	private final static Logger logger =LoggerFactory.getLogger(SpringbootjpaApplication.class);
 
+	private final static Logger logger =LoggerFactory.getLogger(SpringbootjpaApplication.class);
+	
 	public static void main(String[] args) {
-		
 		
 		SpringApplication.run(SpringbootjpaApplication.class, args);
 		logger.info("hello jenkins spring boot welcome to naga");
