@@ -19,7 +19,7 @@ public class SpringbootjpaApplication {
 	public static void main(String[] args) {
 		
 		SpringApplication.run(SpringbootjpaApplication.class, args);
-		logger.info("hello jenkins spring boot welcome to naga");
+		logger.info("hello jenkins spring boot welcome to nagaraju");
 	}
 
 }
