@@ -22,7 +22,7 @@ public class SpringbootjpaApplication {
 		
 		
 		SpringApplication.run(SpringbootjpaApplication.class, args);
-		logger.info("hello jenkins spring boot welcome");
+		logger.info("hello jenkins spring boot welcome to naga");
 	}
 
 }
